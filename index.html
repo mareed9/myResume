@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== SCSS ==========-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>MD resume</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">MD</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt-2 nav__icon"></i>Experience
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#project" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#interests" class="nav__link">
+                <i class='bx bx-happy-beaming nav__icon '></i>Interests
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/prof.png" alt="" class="home__img" />
+                <h1 class="home__title">MARKO <b>DROBNJAK</b></h1>
+                <h3 class="home__profesion">Web developer</h3>
+                <div>
+                  <a
+                    download=""
+                    href="assets/pdf/Marko Drobnjak CV.pdf"
+                    class="home__button-movil"
+                    title="Generate PDF"
+                    >Download</a
+                  >
+                </div>
+              </div>
+              <div class="home__adress bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>Čačak, Serbia
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i
+                  >drobnjakmarko@outlook.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>+381 60 35 38 38 7
+                </span>
+              </div>
+            </div>
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme theme' title="Theme" id="theme-button"></i>
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i class='bx bx-download generate-pdf resume__button'title='Generate PDF' id="resume-button" ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.instagram.com/mareeed9/"
+                target="_blank"
+                class="social__link"
+                ><i class="bx bxl-instagram social__icon"></i>@mareeed9
+              </a>
+              <a
+              href="https://www.facebook.com/MarkoD98"
+              target="_blank"
+              class="social__link"
+              ><i class='bx bxl-facebook social__icon' ></i></i>@MarkoD98
+            </a>
+              <a
+                href="https://github.com/mareed9"
+                target="_blank"
+                class="social__link"
+                ><i class="bx bxl-github social__icon"></i>@mareed9
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+              <h2 class="section-title">Profile</h2>
+              <div class="personal__data bd-grid">
+                <span class="personal__information">
+                    -Date of birth: 1 1 . 03. 1998.
+
+                </span>
+                <span class="personal__information">
+                    -Citizenship: Serbian
+                </span>
+                <span class="personal__information">
+                    -Driver's license: category B
+                </span>
+              </div>
+              <p class="profile_description">
+                Final year student at the Technical Faculty in Čačak.
+                The remaining number of exams is 1 . Eager for new
+                knowledge, hardworking, reliable.</p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title">Information technology electrician</h3>
+                        <span class="education__studies">High School</span>
+                        <span class="education__year">2014 - 2017</span>
+                    </div>
+                </div>
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title">Electrical and computer engineering
+                        </h3>
+                        <span class="education__studies">University of Kragujevac</span>
+                        <span class="education__year">2017 - present</span>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+                <ul class="skills__data">
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>HTML5
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>CSS3
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>SCSS
+                    </li>
+                </ul>
+                <ul class="skills__data">
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>JAVASCRIPT
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>REACT
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span>BOOTSTRAP
+                    </li>
+                </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">EXPERIENCE</h2>
+            <p class="experience__description">
+                Experience in teamwork at the faculty with colleagues, and
+                independent projects.
+                I am currently working on a higher level of knowledge from
+                HTML, CSS and JAVASCRIPT, REACT..
+                I worked for the American company AlphaEfficienty, where I
+                mostly worked HTML and CSS.
+               </p>
+          </section>
+
+          <!--========== PROJECT ==========-->
+          <section class="project section" id="project">
+            <h2 class="section-title">PROJECTS</h2>
+            <div class="project__container bd-grid">
+                <div class="project__content">
+                    <div class="project__time">
+                        <span class="project__rounder"></span>
+                        <span class="project__line"></span>
+                    </div>
+                    <div class="project__data bd-grid">
+                        <h3 class="project__title">WEB APPLICATION FOR SPORTS RECREATION</h3>
+                        <span class="project__summary">-Full functioning client-server web application for organizing sport events. <br>
+                            -Tools and Technologies:<br> • Visual Studio Code, HTML, CSS,
+                            JavaScript, PHP, MySQL</span>
+                    </div>
+                </div>
+                <div class="project__content">
+                    <div class="project__time">
+                        <span class="project__rounder"></span>
+                        <span class="project__line"></span>
+                    </div>
+                    <div class="project__data bd-grid">
+                        <h3 class="project__title">WEB APPLICATION FOR MEDICAL WEIGHT
+                            LOSS CENTER</h3>
+                        <span class="project__summary">-Complete page creation in HTML and CSS (Responsive Web Design)<br>
+                            -Tools and technologies: <br> • Visual Studio Code, HTML, CSS
+                            </span>
+                    </div>
+                </div>
+                <div class="project__content">
+                    <div class="project__time">
+                        <span class="project__rounder"></span>
+                        <span class="project__line"></span>
+                    </div>
+                    <div class="project__data bd-grid">
+                        <h3 class="project__title">WEB APPLICATION FOR ONLINE AUCTION</h3>
+                        <span class="project__summary">-Fully functional web 3.0 site for online bidding for the purchase of nft on the eth network.<br>
+                            -Tools and technologies:<br> •  Visual Studio Code, HTML, CSS,
+                            JavaScript, Moralis, Solidity
+                        </span>
+                    </div>
+                </div>
+                <div class="project__content">
+                    <div class="project__time">
+                        <span class="project__rounder"></span>
+                        <span class="project__line"></span>
+                    </div>
+                    <div class="project__data bd-grid">
+                        <h3 class="project__title">MORE ON GITHUB</h3>
+                        <span class="project__summary">Every day working on some new projects, and learning some new stuff!
+                        </span>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+              <h2 class="section-title">Languages</h2>
+              <div class="languages__container">
+                  <ul class="languages__content bd-grid">
+                      <li class="languages__name">
+                          <span class="languages__circle"></span>English
+                      </li>
+                      <li class="languages__name">
+                          <span class="languages__circle"></span>Serbian
+                      </li>
+                  </ul>
+              </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section" id="interests">
+              <h2 class="section-title">Interests</h2>
+              <div class="interests__containter bd-grid">
+                  <div class="interests__content">
+                      <i class='bx bx-headphone interests__icon'></i>
+                      <span class="interests__name">Music</span>
+                  </div>
+                  <div class="interests__content">
+                    <i class='bx bxs-plane-alt interests__icon'  ></i>
+                      <span class="interests__name">Travel</span>
+                  </div>
+                  <div class="interests__content">
+                      <i class='bx bx-car interests__icon'></i>
+                      <span class="interests__name">Cars</span>
+                  </div>
+                  <div class="interests__content">
+                      <i class='bx bx-dumbbell interests__icon'></i>
+                      <span class="interests__name">Sport</span>
+                  </div>
+                  <div class="interests__content">
+                    <i class='bx bx-party interests__icon' ></i>
+                      <span class="interests__name">Hangout</span>
+                  </div>
+                  <div class="interests__content">
+                    <i class='bx bx-movie interests__icon' ></i>
+                      <span class="interests__name">Movie</span>
+                  </div>
+              </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-chevron-up scrolltop__icon'></i>
+    </a>
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+    <!--========== SCRIPT JS ==========-->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
